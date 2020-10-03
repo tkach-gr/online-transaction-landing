@@ -1,0 +1,21 @@
+@media screen and (min-width: 769px) {
+    .btn-primary:hover {
+        background-color: #EC0A3C;
+    }
+
+    
+    .bg-dark .btn-secondary:hover {
+        background-color: white;
+        color: #1B1E2E;
+    }
+
+    .link:hover::before {
+        top: 100%;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .plan:nth-child(2n) .plan__btn:hover {
+        background-color: #EC0A3C;
+    }
+}
