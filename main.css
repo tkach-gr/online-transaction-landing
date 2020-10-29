@@ -5,6 +5,7 @@
 
 * {
     outline: none;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -96,8 +97,6 @@ a, a:hover, a:active {
     visibility: visible;
     transition: all 0.25s ease-out;
 }
-
-
 
 .content {
     width: 100%;
@@ -302,7 +301,8 @@ body.dropdown-show .header {
 }
 
 .page_pricing {
-    padding: 50px 20px;
+    padding: 130px 20px 50px 20px;
+    margin-top: -80px;
 }
 
 .page__title {
@@ -390,10 +390,12 @@ body.dropdown-show .header {
     background-color: #1F5EEE;
 }
 
-
-
 .footer {
     padding: 30px 20px;
+}
+
+.footer.bg-dark {
+    background-color: #1d1f22;
 }
 
 .footer__subscribe {
